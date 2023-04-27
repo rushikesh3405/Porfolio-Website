@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: teal;
+    width: 234px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgb(77, 19, 142); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devloperinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devloperpic img {
+    margin: 0;
+    padding: 0;
+    width: 231px;
+    height: 45vh;
+}
+
+ .hello{
+   /*padding-left: 12px; */
+   font-size: 55px;
+   color : black;
+       font-family: 'Rubik', sans-serif;
+}
+.name{
+    font-size: 50px;
+    /* padding-left: 12px; */
+    font-weight: bold;
+    color : black;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.about{
+    /* padding-left: 12px; */
+    font-size: 25px;
+    color : black;
+    font-family: 'Rubik', sans-serif;
+}
+.moreabout{
+    /* padding-left: 12px; */
+    color: black;
+    font-size: 22px;
+    font-family:  'Rubik', sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    padding-top : 34px;
+}
+
+button button:hover{
+    background-color: wheat;
+    color: dodgerblue;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    margin: 0 3px;
+    color: white;
+    font-size: 21px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contactform h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.contactform form div input{ 
+    width: 26vw;
+    border-radius: 5px;
+    padding : 3px;
+    margin : 6px 0 0 0;
+    background-color: #40383821;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color:midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check input{
+  width: 1vw;
+  margin: 3px 0px;
+}
+
+#form-check{
+    flex-direction: row;
+ }
+
+ #butt{
+     padding: 9px 10px;
+     border-radius: 22px;
+     color:white;
+     background-color: dodgerblue;
+     font-weight: bold;
+     font-size: 16px;
+     cursor: pointer;
+     margin: 0 30px;
+ }
+
+ .socialsites{
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+ .socialsites{
+    height: 40px;
+    width: 40px;
+ }
