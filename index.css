@@ -24,7 +24,6 @@
 }
 
 .main{
-    /* background-color: yellow; */
     width: 90vw;
     height: 100vh;
     background-color: black;
@@ -36,7 +35,6 @@
 }
 
 .infocontainer{
-    /* background-color: rgb(77, 19, 142); */
     height: 58vh;
     color: blue;
     width: 80vw;
@@ -60,27 +58,23 @@
 }
 
  .hello{
-   /*padding-left: 12px; */
    font-size: 55px;
    color: white;
    font-family: 'Rubik', sans-serif;
 }
 .name{
     font-size: 50px;
-    /* padding-left: 12px; */
     font-weight: bold;
     color: white;
     font-family: 'Rubik', sans-serif;
     
 }
 .about{
-    /* padding-left: 12px; */
     font-size: 25px;
     color : wheat;
     font-family: 'Rubik', sans-serif;
 }
 .moreabout{
-    /* padding-left: 12px; */
     color: rgba(6, 57, 62, 0.482);
     font-size: 22px;
     color: white;
