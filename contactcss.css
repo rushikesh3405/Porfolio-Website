@@ -25,7 +25,6 @@
 }
 
 .main{
-    /* background-color: yellow; */
     width: 90vw;
     height: 100vh;
 }
@@ -35,7 +34,6 @@
 }
 
 .infocontainer{
-    /* background-color: rgb(77, 19, 142); */
     height: 58vh;
     width: 80vw;
     margin: 144px auto;
@@ -57,27 +55,23 @@
 }
 
  .hello{
-   /*padding-left: 12px; */
    font-size: 55px;
    color : black;
        font-family: 'Rubik', sans-serif;
 }
 .name{
     font-size: 50px;
-    /* padding-left: 12px; */
     font-weight: bold;
     color : black;
     font-family: 'Rubik', sans-serif;
     
 }
 .about{
-    /* padding-left: 12px; */
     font-size: 25px;
     color : black;
     font-family: 'Rubik', sans-serif;
 }
 .moreabout{
-    /* padding-left: 12px; */
     color: black;
     font-size: 22px;
     font-family:  'Rubik', sans-serif;
